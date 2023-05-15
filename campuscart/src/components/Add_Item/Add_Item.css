@@ -1,0 +1,76 @@
+:root {
+    background-color: #8ED6DE;
+    height: 100%;
+  }
+
+  .mainh1{
+    width: 100%;
+    text-align: center;
+  }
+
+  .mainh2{
+    width: 100%;
+    text-align: center;
+  }
+
+  .acttable{
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .table{
+    background-color: #F8845B;
+    padding: 5px;
+    border: #000 2px solid;
+    border-radius: 20px;
+    color: white;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .acttable, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  
+  .inp {
+    background-color: #F8845B;
+    padding: 20px;
+    padding-right: 50px;
+    max-width: 500px;
+    margin: 0 auto;
+    border: #000 2px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+  }
+  
+  .lab {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .tex {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #ffffff;
+    color: #F8845B;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
